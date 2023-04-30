@@ -8,8 +8,6 @@ packages = [{include = "cs7643_dl_project"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-numpy = "1.20"
-matplotlib = "^3.7.1"
 seaborn = "^0.12.2"
 black = "^23.3.0"
 mypy = "^1.2.0"
@@ -17,6 +15,7 @@ circlify = "^0.15.0"
 scikit-learn = "^1.2.2"
 gluonts = "^0.12.7"
 mxnet = "^1.9.1"
+numpy = ">=1.19,<2.0"
 
 
 [build-system]
