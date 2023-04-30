@@ -16,6 +16,7 @@ black = "^23.3.0"
 mypy = "^1.2.0"
 circlify = "^0.15.0"
 scikit-learn = "^1.2.2"
+gluonts = "^0.12.7"
 
 
 [build-system]
