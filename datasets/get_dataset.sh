@@ -84,7 +84,7 @@ if [ -d "open-anomaly-detection-benchmark" ]; then
   echo "open-anomaly-detection-benchmark folder already exists. Skipping download."
 else
   echo "Downloading open-anomaly-detection-benchmark dataset..."
-  git clone git@github.com:shahzaib-ch/open-anomaly-detection-benchmark.git 
+  git clone https://github.com/shahzaib-ch/open-anomaly-detection-benchmark.git
 
 fi
 
